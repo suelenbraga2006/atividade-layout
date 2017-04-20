@@ -1,0 +1,15 @@
+header h1, header nav{
+    background-color: #6574d0;
+}
+
+section article{
+    background-color: #649f77;
+}
+
+section:nth-of-type(2){
+    background-color: #c9bb49;
+}
+
+footer{
+    background-color: #b06c6c;
+}
