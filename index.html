@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Grids</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		.col,[class*="col-"] {
+			background-color: #f4f4f4;
+			border: 1px solid #ccc;
+		}
+	</style>
+
+</head>
+<body>
+
+		<hr>
+		<div class="container">
+			<h1>Grids flexbox Bootstrap</h1>
+		</div>
+		<hr>
+		<br>
+		<div class="container">
+				<h2>&raquo; Auto columns</h2>
+				<div class="row">
+					<div class="col">1</div>
+					<div class="col">2</div>
+					<div class="col">3</div>
+				</div>
+
+				<hr>
+				<h2>&raquo; Wider</h2>
+				<div class="row">
+					<div class="col">1</div>
+					<div class="col-8">2</div>
+					<div class="col">3</div>
+				</div>
+
+
+				<hr>
+				<h2>&raquo; Breakpoint</h2>
+				<div class="row">
+					<div class="col">1</div>
+					<div class="col-5 col-md-auto col-lg-10">222222</div>
+					<div class="col">3</div>
+				</div>
+
+
+				<hr>
+				<h2>&raquo; Align</h2>
+				<div class="row" style="height: 300px">
+					<div class="col align-self-lg-end align-self-md-center align-self-end">1</div>
+					<div class="col align-self-lg-center align-self-md-center align-self-end">2</div>
+					<div class="col align-self-lg-start align-self-md-center align-self-end">3</div>
+				</div>
+
+
+		</div>
+
+
+</body>
+</html>
