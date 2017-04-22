@@ -1,0 +1,27 @@
+{
+  "name": "atividade-layout",
+  "homepage": "https://github.com/suelenbraga2006/atividade-layout",
+  "authors": [
+    "Suelen Braga <suelen.braga2006@gmail.com>"
+  ],
+  "description": "Atividade do módulo de layout",
+  "main": "source/index.html",
+  "keywords": [
+    "atividade",
+    "flexbox",
+    "bootsrap4",
+    "certificação"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "componentes"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
