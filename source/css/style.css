@@ -1,4 +1,36 @@
-.col, [class*="col-"]{
-    background-color:#f4f4f4;
+
+header h1, header nav, section article, section:nth-of-type(2), footer{
     border:  1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+header h1, header nav{
+    line-height: 1rem;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1rem;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+header nav{
+    flex-grow: 3;
+}
+
+section article h1{
+    font-size:  2rem;
+}
+
+section:nth-of-type(2) p{
+    font-size: 1.3rem;
+}
+
+section:nth-of-type(2) a{
+    color: #000;
+}
+
+footer p, section:nth-of-type(2) a{
+    text-decoration: underline;
 }
